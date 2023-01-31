@@ -8,12 +8,12 @@ public class DataTeste {
         dt.dia = "27";
 
         Data dt2 = new Data();
-        dt2.ano = "2023";
-        dt2.mes = "02";
-        dt2.dia = "27";
+        dt2.ano = "2024";
+        dt2.mes = "03";
+        dt2.dia = "25";
 
-        System.out.printf("%s/%s/%s\n",dt.dia,dt.mes,dt.ano);
-        System.out.printf("%s/%s/%s",dt2.dia,dt2.mes,dt2.ano);
+        System.out.printf(dt.dataBr()+ "\n");
+        System.out.printf(dt.dataBr(dt2.dia,dt2.mes,dt2.ano));
 
     }
 }
